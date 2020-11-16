@@ -11,7 +11,7 @@
   <body>
 
     <section id="calcola-biglietto" class="text-center">
-      <h1 id="title"> CALCOLA IL PREZZO DEL TUO BIGLIETTO </h1>
+      <h1 id="title" class="color_white"> CALCOLA IL PREZZO DEL TUO BIGLIETTO </h1>
       <div class="card margin_auto">
         <div class="d-flex space_around">
           <div class="box">
@@ -25,7 +25,7 @@
           </div>
 
           <div class="box">
-            <div><label for="age"> Fascia d'età </label></div>
+            <div><label for="fascia"> Fascia d'età </label></div>
             <div>
               <select name="fascia" id="fascia">
                 <option value="Minorenne">Minorenne</option>
@@ -42,13 +42,38 @@
       </div>
     </section>
 
-    <section>
-      <h1> IL TUO BIGLIETTO </h1>
-        <div id=""></div>
-        <div id=""></div>
-        <div id=""></div>
-        <div id=""></div>
-        <div id=""></div>
+    <section id="biglietto">
+
+      <h1 class="text-center color_white"> IL TUO BIGLIETTO </h1>
+      <div id="nome-passeggero"></div>
+      <div id="sconto"></div>
+      <div id="carrozza"></div>
+      <div id="codice_cp"></div>
+      <div id="costo_biglietto"></div>
+
+      <div class="card margin_auto d-flex">
+        <h3>DETTAGLIO PASSEGGERI</h2>
+        <div class="box_grey">
+
+        </div>
+        <div class="tabella">
+          <table>
+            <thead>
+              <tr>
+                <th>head</th><th>head</th><th>head</th><th>head</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>cell</td><td>cell</td><td>cell</td><td>cell</td></tr>
+              <tr>
+                <td>cell</td><td>cell</td><td>cell</td><td>cell</td></tr>
+              <tr>
+                <td>cell</td><td>cell</td><td>cell</td><td>cell</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </section>
 
     <script type="text/javascript" src="assets/js/ticket.js">
