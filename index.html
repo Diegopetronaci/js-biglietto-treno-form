@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calcolatore Biglietto</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+
+    <section id="calcola-biglietto" class="text-center">
+      <h1 id="title"> Calcola il Prezzo del tuo biglietto </h1>
+      <div class="card margin_auto">
+        <div class="d-flex space_around">
+          <div class="box">
+            <div><label for="full_name"> Nome Cognome </label></div>
+            <div><input type="text" name="full_name" id="full_name"></div>
+          </div>
+
+          <div class="box">
+            <div><label for="km_totali"> Km da percorrere </label></div>
+            <div><input type="text" name="km_totali" id="km_totali"></div>
+          </div>
+
+          <div class="box">
+            <div><label for="age"> Fascia d'età </label></div>
+            <div>
+              <select name="fascia" id="fascia">
+                <option value="Minorenne">Minorenne</option>
+                <option value="Maggiorenne">Maggiorenne</option>
+                <option value="over_65">over 65</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="bottoni_creazione">
+          <button type="button" name="Genera" id="btn_genera"> Genera </button>
+          <button type="button" name="Annulla" id="btn_annulla"> Annulla </button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+
+    </section>
+
+    <script type="text/javascript" src="assets/js/ticket.js">
+
+    </script>
+  </body>
+</html>

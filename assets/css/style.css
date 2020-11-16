@@ -1,0 +1,28 @@
+body{
+  background-color: #b91450;
+}
+.d-flex{
+  display: flex;
+}
+.space_around{
+  justify-content: space-around;
+}
+.margin_auto{
+  width: 80%;
+  margin: auto;
+}
+.card{
+  padding: 20px;
+  background-color: white;
+  margin: auto;
+  border-radius: 10px;
+}
+.box{
+  width: 200px;
+}
+#fascia, #km_totali, #full_name{
+  width: 150px;
+}
+.bottoni_creazione{
+  padding-top: 20px;
+}
