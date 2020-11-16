@@ -30,7 +30,7 @@ btnGenera.addEventListener("click", function () {
   }
 
   //Seleziona Elementi del BIGLIETTO
-  var elName = document.getElementById("nome-passeggero")
+  var elName = document.getElementById("nome-passeggero");
   var elSconto = document.getElementById("sconto");
   var elCarrozza = document.getElementById("carrozza");
   var elCodiceCp = document.getElementById("codice_cp");
