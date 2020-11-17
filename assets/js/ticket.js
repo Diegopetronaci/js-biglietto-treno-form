@@ -52,7 +52,7 @@ btnGenera.addEventListener("click", function () {
 btnAnnulla.addEventListener("click", function () {
   console.log("Annulla operazione");
   document.getElementById("biglietto").style.display = "none";
-  var fullNameImput = document.getElementById("full_name");
-  var kmImput = document.getElementById("km_totali");
-  var fasciaImput = document.getElementById("fascia");
+  var fullNameImput = document.getElementById("full_name").value = "";
+  var kmImput = document.getElementById("km_totali").value = "";
+  var fasciaImput = document.getElementById("fascia").value = "Minorenne";
 });
